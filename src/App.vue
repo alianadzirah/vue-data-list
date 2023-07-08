@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
-    <table>
+  <div class="asset-data">
+    <center>
+      <table>
       <thead>
         <tr>
           <th>Asset name</th>
@@ -15,6 +16,7 @@
       </tbody>
     </table>
     <button @click="downloadCSV">Download CSV</button>
+    </center>
   </div>
 </template>
 
@@ -61,7 +63,6 @@ th, td {
 }
 
 button {
-  align-items: flex-end;
   margin-top: 16px;
   padding: 8px 16px;
 }
