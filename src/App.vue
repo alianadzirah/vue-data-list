@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>Data List</h1>
     <table>
       <thead>
         <tr>
@@ -62,6 +61,7 @@ th, td {
 }
 
 button {
+  align-items: flex-end;
   margin-top: 16px;
   padding: 8px 16px;
 }
